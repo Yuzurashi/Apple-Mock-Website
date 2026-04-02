@@ -6,3 +6,51 @@
 .navbar-toggler-icon {
   background-size: 50%;
 }
+
+.ai-gradient {
+  background: -webkit-linear-gradient(
+    356deg,
+    #0090f7,
+    #ba62fc,
+    #f2416b,
+    #f55600
+  );
+  background: linear-gradient(94deg, #0090f7, #ba62fc, #f2416b, #f55600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.hero-image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-1-section {
+  background-image: url(./images/hero_iphone_family.jpg);
+  height: 800px;
+}
+
+.hero-2-section {
+  background-image: url(./images/promo_macbook_air_avail.jpg);
+  height: 800px;
+}
+
+.hero-3-section {
+  background-image: url(./images/promo_ipad_air.jpg);
+  height: 800px;
+}
+
+.my-card {
+  padding: 0 100px;
+}
+
+.my-card a {
+  font-size: 13px;
+}
+
+.my-card p {
+  font-size: 20px;
+}
