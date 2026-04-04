@@ -18,9 +18,9 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary pt-1 px-5">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand d-flex" href="#">
           <img
             class="apple-logo"
             src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
@@ -70,7 +70,7 @@
         </div>
 
         <!-- icons -->
-        <div class="d-flex gap-3 align-items-center">
+        <div class="d-flex gap-md-5 gap-sl-2 align-items-center">
           <i class="bi bi-search"></i>
           <i class="bi bi-bag"></i>
           <button
@@ -130,7 +130,8 @@
     </nav>
     <!-- Navbar End -->
 
-    <!-- Hero -->
+    <!-- Hero iphone -->
+    <!-- 
     <div
       class="hero-1-section hero-image d-flex justify-content-center text-center"
     >
@@ -146,16 +147,17 @@
         <p class="ai-gradient fw-semibold">Built for Apple Intelligence</p>
       </div>
     </div>
+ -->
     <!-- Hero End -->
 
     <!-- Macbook  -->
     <div
-      class="hero-2-section hero-image my-2 d-flex justify-content-center text-center"
+      class="hero-2-section hero-image mb-2 d-flex justify-content-center text-center"
     >
-      <div class="p-5">
-        <h1 class="fw-bold">MacBook Neo</h1>
-        <h4 class="">Amazing Mac. Suprising price.</h4>
-        <div class="py-3">
+      <div class="p-4">
+        <h1 class="fw-semibold">MacBook Neo</h1>
+        <h4 class="py-1">Amazing Mac. Suprising price.</h4>
+        <div class="">
           <button class="pb-2 m-2 px-4 btn btn-primary rounded-pill">
             Learn more
           </button>
@@ -167,14 +169,33 @@
     </div>
     <!-- Macbook End -->
 
-    <!-- iPad  -->
+    <!-- iPhone  -->
     <div
-      class="hero-3-section hero-image my-2 d-flex justify-content-center text-center"
+      class="hero-3-section hero-image mb-2 d-flex justify-content-center text-center"
     >
       <div class="p-5">
-        <h1 class="fw-bold">iPad Air</h1>
-        <h4 class="">Now supercharged by M4.</h4>
-        <div class="py-3">
+        <h1 class="fw-bold">iPhone</h1>
+        <h4 class="py-1">Meet the iPhone lingup.</h4>
+        <div class="">
+          <button class="pb-2 m-2 px-4 btn btn-primary rounded-pill">
+            Learn more
+          </button>
+          <button class="pb-2 m-2 px-4 btn btn-outline-primary rounded-pill">
+            Shop iPhone
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Macbook End -->
+
+    <!-- iPad  -->
+    <div
+      class="hero-4-section hero-image my-2 d-flex justify-content-center text-center"
+    >
+      <div class="p-5">
+        <h1 class="fw-semibold">iPad Air</h1>
+        <h4 class="py-1">Now supercharged by M4.</h4>
+        <div class="">
           <button class="pb-2 m-2 px-4 btn btn-primary rounded-pill">
             Learn more
           </button>
@@ -193,7 +214,7 @@
           <div
             class="d-flex flex-column hero-image"
             style="
-              background-image: url(./images/promo_20_years_of_podcasts.jpg);
+              background-image: url(./images/promo_wwdc26_md.jpg);
               height: 550px;
               width: auto;
             "
@@ -202,7 +223,9 @@
               <p class="">
                 Apple Worldwide Developers Conference. Join us online June 8-12.
               </p>
-              <a class="pb-2 m-2 btn btn-primary rounded-pill"> Learn More</a>
+              <a class="pb-2 px-3 m-2 btn btn-primary rounded-pill">
+                Learn More</a
+              >
             </div>
           </div>
         </div>
@@ -210,14 +233,14 @@
           <div
             class="d-flex flex-column hero-image"
             style="
-              background-image: url(./images/promo_20_years_of_podcasts.jpg);
+              background-image: url(./images/promo_apple_50_md.jpg);
               height: 550px;
               width: auto;
             "
           >
-            <div class="my-card mt-auto mb-5 text-white">
+            <div class="my-card mt-auto mb-5 text-black">
               <h2 class="">50 Years of Thinking Different.</h2>
-              <a class="pb-2 m-2 btn btn-primary rounded-pill">
+              <a class="pb-2 px-3 m-2 btn btn-primary rounded-pill">
                 Read the letter from Tim</a
               >
             </div>
@@ -227,7 +250,7 @@
           <div
             class="d-flex flex-column hero-image"
             style="
-              background-image: url(./images/promo_20_years_of_podcasts.jpg);
+              background-image: url(./images/promo_macbook_pro_md.jpg);
               height: 550px;
               width: auto;
             "
@@ -236,8 +259,11 @@
               <h2 class="fw-bold fs-2">MacBook Pro</h2>
               <h5>Now with M5, M5 Pro, and M5 Max</h5>
               <div>
-                <a class="pb-2 m-2 btn btn-primary rounded-pill"> Learn more</a>
-                <a class="pb-2 m-2 btn btn-outline-primary rounded-pill">
+                <a class="pb-2 px-3 m-2 btn btn-primary rounded-pill">
+                  Learn more</a
+                >
+
+                <a class="pb-2 px-3 m-2 btn btn-outline-primary rounded-pill">
                   Buy</a
                 >
               </div>
@@ -248,19 +274,24 @@
           <div
             class="d-flex flex-column hero-image"
             style="
-              background-image: url(./images/promo_20_years_of_podcasts.jpg);
+              background-image: url(./images/promo_apple_watch_series_10_avail.jpg);
               height: 550px;
               width: auto;
             "
           >
-            <div class="my-card mb-auto mt-5 text-white">
-              <h2 class="fs-2">
-                <span class="fw-bold">🍏WATCH </span>SERIES 11
-              </h2>
+            <div class="my-card mb-auto mt-5 text-black">
+              <div class="display-center">
+                <i class="bi bi-apple"></i>
+                <h2 class="fs-2 mt-3">
+                  <span class="fw-bold">WATCH </span>SERIES 11
+                </h2>
+              </div>
               <h5>The ultimate way to watch your health.</h5>
               <div>
-                <a class="pb-2 m-2 btn btn-primary rounded-pill"> Learn more</a>
-                <a class="pb-2 m-2 btn btn-outline-primary rounded-pill">
+                <a class="pb-2 px-3 m-2 btn btn-primary rounded-pill">
+                  Learn more</a
+                >
+                <a class="pb-2 px-3 m-2 btn btn-outline-primary rounded-pill">
                   Buy</a
                 >
               </div>
@@ -271,13 +302,16 @@
           <div
             class="d-flex flex-column hero-image"
             style="
-              background-image: url(./images/promo_20_years_of_podcasts.jpg);
+              background-image: url(./images/promo_iphone_tradein.jpg);
               height: 550px;
               width: auto;
             "
           >
-            <div class="my-card mb-auto mt-5 text-white">
-              <h2 class="fs-1 fw-bold">🍏TradeIn</h2>
+            <div class="my-card mb-auto mt-5 text-black">
+              <div class="display-center">
+                <i class="bi bi-apple"></i>
+                <h2 class="fw-semibold mt-3">TradeIn</h2>
+              </div>
               <h5>
                 Get up to $195-$685 in credit when you trade in iPhone 13 or
                 higher.
@@ -294,13 +328,16 @@
           <div
             class="d-flex flex-column hero-image"
             style="
-              background-image: url(./images/promo_20_years_of_podcasts.jpg);
+              background-image: url(./images/promo_apple_card_md.jpg);
               height: 550px;
               width: auto;
             "
           >
-            <div class="my-card mb-auto mt-5 text-white">
-              <h2 class="fs-1 fw-bold">🍏Card</h2>
+            <div class="my-card mb-auto mt-5 text-black">
+              <div class="display-center">
+                <i class="bi bi-apple"></i>
+                <h2 class="fw-semibold mt-3">Card</h2>
+              </div>
               <h5>Get up to 3% Daily Cash back with every purchase.</h5>
               <div>
                 <a class="pb-2 m-2 btn btn-primary rounded-pill">Learn more</a>
@@ -316,7 +353,6 @@
 
     <!-- Grid End -->
     <h1>Testing</h1>
-    <h3>Testing</h3>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

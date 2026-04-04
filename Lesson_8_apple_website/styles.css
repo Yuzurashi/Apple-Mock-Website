@@ -1,6 +1,11 @@
 .apple-logo {
-  width: 20px;
+  width: 15px;
   height: auto;
+}
+
+.nav-item {
+  font-size: 10px;
+  margin: 0 15px;
 }
 
 .navbar-toggler-icon {
@@ -28,19 +33,38 @@
   background-repeat: no-repeat;
 }
 
+.hero-image h1 {
+  font-size: 55px;
+}
+
 .hero-1-section {
   background-image: url(./images/hero_iphone_family.jpg);
   height: 800px;
 }
 
 .hero-2-section {
-  background-image: url(./images/promo_macbook_air_avail.jpg);
-  height: 800px;
+  background-image: url(./images/hero_macbook_neo_lg_tall.jpg);
+  height: 600px;
 }
 
 .hero-3-section {
-  background-image: url(./images/promo_ipad_air.jpg);
-  height: 800px;
+  background-image: url(./images/hero_iphone_fam_lg_tall.jpg);
+  height: 600px;
+}
+
+.hero-4-section {
+  background-image: url(./images/hero_ipad_air_m4_lg.jpg);
+  height: 600px;
+}
+
+.display-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bi-apple {
+  font-size: 30px;
 }
 
 .my-card {
