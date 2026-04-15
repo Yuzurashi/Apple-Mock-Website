@@ -359,55 +359,42 @@
         id="carouselExampleCaptions"
         class="carousel slide d-flex justify-content-center"
       >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
         <div class="row">
           <div class="carousel-list col">
-            <div class="carousel-item active">
+            <div class="carousel-item carousel-image active">
+              <img
+                src="./images/carousel_shrinking.png"
+                class="carousel-image d-md-none"
+                alt="placeholder of imperfect women on small device"
+              />
               <img
                 src="./images/carousel_imperfectwomen.png"
-                class="d-block"
-                alt="Image of women"
-                style="height: 500px; object-fit: cover"
+                class="carousel-image d-md-flex d-none"
+                alt="Image of imperfect women"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <div class="d-flex align-items-center">
+
+              <div
+                class="carousel-caption d-md-block display-center bg-success"
+              >
+                <div class="d-md-flex align-items-center">
+                  <p class="order-md-1 flavour-txt m-md-0 mb-3">
+                    <span class="fw-bold d-md-inline d-block">Thriller </span>
+                    <span class="d-none fw-bold d-md-inline d-block"
+                      >&#183;</span
+                    >
+                    They shared everything but the truth.
+                  </p>
                   <div class="pb-2 px-3 btn btn-light rounded-pill">
                     Stream now
                   </div>
-                  <p class="flavour-txt m-0">
-                    <span class="fw-bold">Thriller &#183;</span> They shared
-                    everything but the truth.
-                  </p>
                 </div>
               </div>
             </div>
             <div class="carousel-item col">
               <img
                 src="./images/carousel_shrinking.png"
-                class="d-block"
+                class="d-block carousel-image"
                 alt="Image of women"
-                style="height: 500px; object-fit: cover"
               />
               <div class="carousel-caption d-none d-md-block">
                 <div class="d-flex align-items-center">
@@ -417,6 +404,59 @@
                   <p class="flavour-txt m-0">
                     <span class="fw-bold">Shrink &#183;</span> They shared
                     everything but the truth.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col">
+              <img
+                src="./images/carousel_f1-sport.png"
+                class="d-block carousel-image"
+                alt="Image of women"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex align-items-center">
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    F1 on Apple TV
+                  </div>
+                  <p class="flavour-txt m-0">
+                    Every Grand Prix &trade;, live and on demand &mdash; all in
+                    one place, all year long.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col">
+              <img
+                src="./images/carousel_monarch.png"
+                class="d-block carousel-image"
+                alt="Image of women"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex align-items-center">
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    Stream now
+                  </div>
+                  <p class="flavour-txt m-0">
+                    <span class="fw-bold">Adventure &#183;</span> A new threat
+                    will surface.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item col">
+              <img
+                src="./images/carousel_soccer.png"
+                class="d-block carousel-image"
+                alt="Image of women"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="d-flex align-items-center">
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    MLS on Apple TV
+                  </div>
+                  <p class="flavour-txt m-0">
+                    Watch every club, every match, live &mdash; all season long.
                   </p>
                 </div>
               </div>
@@ -443,6 +483,28 @@
           <span class="visually-hidden">Next</span>
         </button>
         <!-- Indicators -->
+      </div>
+      <div class="carousel-indicators position-relative bg-primary">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
       </div>
     </section>
 
