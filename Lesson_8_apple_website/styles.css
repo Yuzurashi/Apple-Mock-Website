@@ -79,8 +79,8 @@
   font-size: 20px;
 }
 
-.flavour-txt {
-  padding: 0 0 0 20px;
+.carousel-item {
+  float: none;
 }
 
 .carousel-image {
@@ -91,4 +91,9 @@
 .carousel-caption {
   left: 10%;
   right: 10%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: pink;
 }
