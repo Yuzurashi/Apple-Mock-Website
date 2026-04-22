@@ -126,7 +126,8 @@ h1 {
 .footer-div span,
 p,
 li,
-h3 {
+h3,
+div {
   font-size: 12px;
   text-decoration: none;
 }
@@ -138,8 +139,19 @@ a {
   color: black;
 }
 
-.footer-link a:hover {
+.footer-link a:hover,
+.footer-legal a:hover {
   text-decoration: underline;
+}
+
+/* .footer-legal li {
+  padding-left: 15px;
+  border-left: 1px solid black;
+  margin-bottom: 5px;
+}
+ */
+.footer-legal li::after {
+  content: "|";
 }
 
 ul {
