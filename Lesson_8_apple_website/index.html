@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>🍏 Apple (Australia)</title>
+    <title>Apple (Australia)</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,9 +19,9 @@
   <body data-bs-scroll="true" class="bg-body-tertiary">
     <!-- Navbar -->
     <nav
-      class="sticky-top navbar navbar-expand-lg bg-body-tertiary bg-opacity-75 pt-1 px-5"
+      class="sticky-top navbar navbar-expand-lg bg-body-tertiary bg-opacity-75 pt-1 px-2"
     >
-      <div class="container-fluid">
+      <div class="container-fluid px-md-5 px-sm-3 px-1">
         <a class="navbar-brand d-flex" href="#">
           <img
             class="apple-logo"
@@ -73,8 +73,8 @@
 
         <!-- icons -->
         <div class="d-flex gap-md-5 gap-sl-2 align-items-center">
-          <i class="bi bi-search"></i>
-          <i class="bi bi-bag"></i>
+          <i class="bi bi-search mx-md-1 mx-3"></i>
+          <i class="bi bi-bag mx-md-1 mx-3"></i>
           <button
             class="navbar-toggler p-0"
             type="button"
@@ -89,8 +89,10 @@
         </div>
         <!-- icon end -->
       </div>
+
+      <!-- Nav Accordion -->
       <div
-        class="collapse d-lg-none justify-content-center px-5"
+        class="collapse d-lg-none justify-content-center px-md-5"
         id="navbarSupportedContent"
       >
         <ul class="navbar-nav mb-2 mb-lg-0">
@@ -130,11 +132,9 @@
         </ul>
       </div>
     </nav>
-    <!-- Navbar End -->
 
     <!-- Hero iphone -->
-    <!-- 
-    <div
+    <!--  <div
       class="hero-1-section hero-image d-flex justify-content-center text-center"
     >
       <div class="p-5">
@@ -148,16 +148,15 @@
         </div>
         <p class="ai-gradient fw-semibold">Built for Apple Intelligence</p>
       </div>
-    </div>
- -->
-    <!-- Hero End -->
+    </div> -->
 
     <!-- Macbook  -->
     <div
       class="hero-2-section hero-image mb-2 d-flex justify-content-center text-center"
     >
       <div class="p-4">
-        <h1 class="fw-bold">MacBook Neo</h1>
+        <h1 class="fw-bold d-none d-sm-inline">MacBook Neo</h1>
+        <h1 class="fw-bold fs-1 mt-3 d-block d-sm-none">MacBook Neo</h1>
         <h4 class="py-1">Amazing Mac. Suprising price.</h4>
         <div class="">
           <button class="pb-2 m-2 px-4 btn btn-primary rounded-pill">
@@ -169,14 +168,14 @@
         </div>
       </div>
     </div>
-    <!-- Macbook End -->
 
     <!-- iPhone  -->
     <div
       class="hero-3-section hero-image mb-2 d-flex justify-content-center text-center"
     >
       <div class="p-5">
-        <h1 class="fw-bold">iPhone</h1>
+        <h1 class="fw-bold d-none d-sm-inline">iPhone</h1>
+        <h1 class="fw-bold fs-1 mt-3 d-block d-sm-none">iPhone</h1>
         <h4 class="py-1">Meet the iPhone lingup.</h4>
         <div class="">
           <button class="pb-2 m-2 px-4 btn btn-primary rounded-pill">
@@ -188,14 +187,14 @@
         </div>
       </div>
     </div>
-    <!-- Macbook End -->
 
     <!-- iPad  -->
     <div
       class="hero-4-section hero-image my-2 d-flex justify-content-center text-center"
     >
       <div class="p-5">
-        <h1 class="fw-semibold">iPad Air</h1>
+        <h1 class="fw-semibold d-none d-sm-inline">iPad Air</h1>
+        <h1 class="fw-semibold fs-1 mt-3 d-block d-sm-none">iPad Air</h1>
         <h4 class="py-1">Now supercharged by M4.</h4>
         <div class="">
           <button class="pb-2 m-2 px-4 btn btn-primary rounded-pill">
@@ -207,7 +206,6 @@
         </div>
       </div>
     </div>
-    <!-- iPad End -->
 
     <!-- Grid -->
     <section class="my-2 mx-2 text-center justify-content-center">
@@ -352,9 +350,9 @@
         </div>
       </div>
     </section>
-    <!-- Grid End -->
 
-    <!-- Carousel -->
+    <!-- My Carousel -->
+    <!-- 
     <section class="my-2 bg-body-tertiary">
       <h1 class="fw-bold text-center mt-5 mb-3">Endless entertainment.</h1>
       <div
@@ -481,7 +479,6 @@
           </div>
         </div>
 
-        <!-- Button ctrl -->
         <button
           class="carousel-control-prev"
           type="button"
@@ -500,7 +497,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-        <!-- Indicators -->
+
         <div class="carousel-indicators my-0 bg-primary">
           <button
             type="button"
@@ -531,12 +528,180 @@
         </div>
       </div>
     </section>
-    <!-- Carousel End -->
+ -->
+
+    <!-- Class Carousel 22nd Wed -->
+    <section class="my-2 bg-body-tertiary">
+      <h1 class="fw-bold text-center mt-5 mb-3">Endless entertainment.</h1>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide d-flex justify-content-center"
+      >
+        <div class="">
+          <div class="carousel-list">
+            <div class="carousel-item carousel-image active">
+              <img
+                src="./images/carousel_apple_1.jpg"
+                class="carousel-image d-md-none"
+                alt="placeholder of imperfect women on small device"
+              />
+              <img
+                src="./images/carousel_imperfectwomen.png"
+                class="carousel-image d-md-flex d-none"
+                alt="Image of imperfect women"
+              />
+              <div class="carousel-caption d-md-block display-center">
+                <div class="d-md-flex align-items-center">
+                  <h6 class="order-md-1 px-md-3 m-md-0 mb-3">
+                    <span class="fw-bold d-md-inline d-block">Thriller </span>
+                    <span class="d-none fw-bold d-md-inline d-block"
+                      >&#183;</span
+                    >
+                    They shared everything but the truth.
+                  </h6>
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    Stream now
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-list">
+            <div class="carousel-item carousel-image">
+              <img
+                src="./images/carousel_apple_2.jpg"
+                class="carousel-image d-md-none"
+                alt="placeholder of shrinking film on small device"
+              />
+              <img
+                src="./images/carousel_shrinking.png"
+                class="carousel-image d-md-flex d-none"
+                alt="Image of Shrinking Film"
+              />
+              <div class="carousel-caption d-md-block display-center">
+                <div class="d-md-flex align-items-center">
+                  <h6 class="order-md-1 px-md-3 m-md-0 mb-3">
+                    <span class="fw-bold d-md-inline d-block">Comedy </span>
+                    <span class="d-none fw-bold d-md-inline d-block"
+                      >&#183;</span
+                    >
+                    Getting it together. Together.
+                  </h6>
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    Stream now
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-list">
+            <div class="carousel-item carousel-image">
+              <img
+                src="./images/carousel_apple_3.jpg"
+                class="carousel-image d-md-none"
+                alt="placeholder of F1 sport on small device"
+              />
+              <img
+                src="./images/carousel_f1_sport.png"
+                class="carousel-image d-md-flex d-none"
+                alt="Image of F1 sport"
+              />
+              <div class="carousel-caption d-md-block display-center">
+                <div class="d-md-flex align-items-center">
+                  <h6 class="order-md-1 px-md-3 m-md-0 mb-3">
+                    Every Grand Prix&#8482;, live on demand&mdash;all in one
+                    place, all year long.
+                  </h6>
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    F1 on Apple TV
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-list">
+            <div class="carousel-item carousel-image">
+              <img
+                src="./images/carousel_apple_1.jpg"
+                class="carousel-image d-md-none"
+                alt="placeholder of Monarch film on small device"
+              />
+              <img
+                src="./images/carousel_monarch.png"
+                class="carousel-image d-md-flex d-none"
+                alt="Image of Monarch Film"
+              />
+              <div class="carousel-caption d-md-block display-center">
+                <div class="d-md-flex align-items-center">
+                  <h6 class="order-md-1 px-md-3 m-md-0 mb-3">
+                    <span class="fw-bold d-md-inline d-block">Adventure </span>
+                    <span class="d-none fw-bold d-md-inline d-block"
+                      >&#183;</span
+                    >
+                    A new threat will surface.
+                  </h6>
+                  <div class="pb-2 px-3 btn btn-light rounded-pill">
+                    Stream now
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next bg-success"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+        <div class="carousel-indicators my-0 bg-primary">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer>
       <div class="footer-div d-block float-none fw-lighter">
-        <h2 class="d-none">Apple Footer</h2>
         <!-- Footer txt -->
         <section class="pt-3">
           <ul class="d-block">
@@ -593,7 +758,7 @@
               <span>
                 Learn more about how Apple Card applications are evaluated at
                 <a
-                  class="text-black"
+                  class="text-black fw-medium text-decoration-underline"
                   href="https://web.archive.org/web/20260330051456/https://support.apple.com/en-us/HT209218"
                   >support.apple.com/kb/HT209218.
                 </a>
@@ -615,7 +780,7 @@
         </section>
 
         <!-- Footer Links Start -->
-        <nav class="footer-link pt-2 mx-0 row">
+        <nav class="footer-link d-none d-sm-flex pt-2 mx-0 row">
           <div class="col p-0 m-0">
             <div class="">
               <h3 class="fw-bold mb-2 me-3">Shop and Learn</h3>
@@ -872,22 +1037,473 @@
           </div>
         </nav>
 
+        <!-- Footer Link Accordian -->
+        <div
+          class="accordion d-sm-none mb-3"
+          id="accordionPanelsStayOpenExample"
+        >
+          <div class="accordion-item p-0 m-0 border-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Shop and Learn
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Store</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Mac</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">iPad</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">iPhone</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Watch</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Vision</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Airpod</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">TV & Home</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Airtag</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Accessories</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Gifts & Cards</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                Apple Wallet
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Wallet</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Card</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Pay</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Cash</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Account
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Manage Your Apple Account</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Store Account</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">iCloud.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+                Entertainment
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Apple One</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple TV</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Music</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Arcade</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Fittness +</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple News +</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Podcasts</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Books</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Store</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                Apple Store
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Find a Store</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Genius Bar</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Today at Apple</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Group Reservations</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Camp</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Store App</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Certificate Refurbished</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Trade In</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Financing</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Carrier Deals at Apple</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Order Status</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Shopping Help</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseSix"
+              >
+                For Business
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseSix"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Apple and Business</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Shop for Business</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeven"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseSeven"
+              >
+                For Education
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseSeven"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Apple and Education</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Shop for K-23</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Shop for College</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEight"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseEight"
+              >
+                For Healthcare
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseEight"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Apple and Healthcare</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseNine"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseNine"
+              >
+                For Government
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseNine"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Apple and Government</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Shop for Veteran and Military</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html"
+                      >Shop for State and Local Employees</a
+                    >
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Shop for Federal Employees</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTen"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseTen"
+              >
+                Apple Values
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseTen"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Accessibility</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Education</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Environment</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Inclusion and Diversity</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Privacy</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Racial Equality and Justice</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Supple Chain Innovation</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item p-0 m-0 border-1 border-bottom">
+            <h5 class="accordion-header p-0">
+              <button
+                class="accordion-button py-2 px-0 bg-body-tertiary text-black"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseEleven"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseEleven"
+              >
+                About Apple
+              </button>
+            </h5>
+            <div
+              id="panelsStayOpen-collapseEleven"
+              class="accordion-collapse collapse"
+            >
+              <div class="accordion-body bg-body-tertiary">
+                <ul class="me-3">
+                  <li class="mb-2">
+                    <a href="./error.html">Newsroom</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Apple Leadership</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Career Opportunities</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Investors</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Ethics & Compliance</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Events</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="./error.html">Contact Apple</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Footer Disclaimer -->
-        <section class="pt-5 pb-3 m-0 px-0">
-          <div class="mb-4 d-flex">
+        <section class="pt-sm-5 pb-3 m-0 px-0">
+          <div class="mb-md-3 d-md-flex">
             More ways to shop:
             <a
-              class="text-decoration-underline text-primary fw-medium px-1"
+              class="text-decoration-underline text-primary fw-medium px-sm-1"
               href="./error.html"
               >Find an Apple Store</a
             >
             or
             <a
-              class="text-decoration-underline text-primary fw-medium px-1"
+              class="text-decoration-underline text-primary fw-medium px-sm-1"
               href="./error.html"
               >other retailer</a
             >near you.
-            <span class="px-1"
+            <span class="px-sm-1 d-flex"
               >Or call
               <a
                 class="text-decoration-underline text-primary fw-medium px-1"
@@ -896,14 +1512,21 @@
               >(1-800-692-7753).</span
             >
           </div>
-          <hr />
+          <hr class="d-none d-md-flex" />
           <div class="footer-legal d-flex justify-content-between">
-            <div class="footer-legal-test d-flex">
+            <div class="footer-legal-test d-md-flex">
+              <div class="d-md-none my-3">
+                <a
+                  class="fw-medium link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                  href="./error.html"
+                  >Australia</a
+                >
+              </div>
               <div class="fw-medium mt-1 me-4">
                 Copyright &#169; 2026 Apple Inc. All rights reserved.
               </div>
               <ul class="mt-1 me-3 d-flex">
-                <li class="px-1">
+                <li class="px-md-1">
                   <a class="fw-medium me-1" href="./error.html"
                     >Privacy Policy</a
                   >
@@ -924,9 +1547,9 @@
                 </li>
               </ul>
             </div>
-            <div class="mt-1">
+            <div class="d-none d-md-flex mt-1">
               <a
-                class="link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                class="fw-medium link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
                 href="./error.html"
                 >Australia</a
               >
@@ -935,97 +1558,6 @@
         </section>
       </div>
     </footer>
-
-    <!-- Accordian test -->
-    <!--     <div class="accordion d-md-none" id="accordionPanelsStayOpenExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseOne"
-            aria-expanded="true"
-            aria-controls="panelsStayOpen-collapseOne"
-          >
-            Accordion Item #1
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseOne"
-          class="accordion-collapse collapse show"
-        >
-          <div class="accordion-body">
-            <strong>This is the first item’s accordion body.</strong> It is
-            shown by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It’s also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseTwo"
-            aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseTwo"
-          >
-            Accordion Item #2
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseTwo"
-          class="accordion-collapse collapse"
-        >
-          <div class="accordion-body">
-            <strong>This is the second item’s accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It’s also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button collapsed"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#panelsStayOpen-collapseThree"
-            aria-expanded="false"
-            aria-controls="panelsStayOpen-collapseThree"
-          >
-            Accordion Item #3
-          </button>
-        </h2>
-        <div
-          id="panelsStayOpen-collapseThree"
-          class="accordion-collapse collapse"
-        >
-          <div class="accordion-body">
-            <strong>This is the third item’s accordion body.</strong> It is
-            hidden by default, until the collapse plugin adds the appropriate
-            classes that we use to style each element. These classes control the
-            overall appearance, as well as the showing and hiding via CSS
-            transitions. You can modify any of this with custom CSS or
-            overriding our default variables. It’s also worth noting that just
-            about any HTML can go within the <code>.accordion-body</code>,
-            though the transition does limit overflow.
-          </div>
-        </div>
-      </div>
-    </div> -->
 
     <!-- Script -->
     <script

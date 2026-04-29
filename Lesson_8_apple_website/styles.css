@@ -124,10 +124,10 @@ h1 {
 }
 
 .footer-div span,
-p,
-li,
-h3,
-div {
+.footer-div p,
+.footer-div li,
+.footer-div h3,
+.footer-div div {
   font-size: 12px;
   text-decoration: none;
 }
@@ -140,7 +140,8 @@ a {
 }
 
 .footer-link a:hover,
-.footer-legal a:hover {
+.footer-legal a:hover,
+.accordion-body a:hover {
   text-decoration: underline;
 }
 
@@ -150,6 +151,7 @@ a {
   margin-bottom: 5px;
 }
  */
+
 .footer-legal li::after {
   content: "|";
 }
@@ -168,3 +170,10 @@ li {
 }
 
 /* accordian */
+.accordion-button {
+  font-size: 12px;
+}
+
+.collapsing {
+  transition: height 0.5s ease;
+}
