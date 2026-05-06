@@ -1,0 +1,34 @@
+body {
+  font-family: Arial;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+/* Display flex makes content in row */
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
+
+.top-container {
+  background-color: lightblue;
+}
+
+.middle-container {
+  background-color: lightpink;
+}
+
+.bottom-container {
+  background-color: lightsalmon;
+}
+
+.middle-container:hover {
+  background-color: green;
+}
